@@ -1,0 +1,648 @@
+
+
+/* big tablet to 1200  from 1023 to 1300 px*/
+
+@media only screen and (min-width:1023px),(max-width:1300px){
+        
+    .about-grid{
+        display:grid;
+        grid-template-columns:repeat(18,70px);
+        grid-template-rows:repeat(18,70px);
+        
+    
+
+    }
+ 
+ 
+
+
+}
+
+/* small phones and tablets from 768 to 1023 px*/
+
+
+@media only screen and (min-width:768px),(max-width:1023px){
+    
+    .about-grid{
+        display:grid;
+        grid-template-columns: repeat(10,103px);
+        grid-template-rows:repeat(18, 80px);
+        object-position: center;
+        
+    }
+    
+      .plastic-1{
+         background-color: #778957;
+         grid-column-start:1;
+         grid-column-end:4;
+         grid-row-start:1;
+         grid-row-end:1; 
+        margin-left: 10px;
+          margin-top: 10px;
+          z-index: 1;
+               }
+    
+    .plastic-2{
+        background-color: #778957;
+         grid-column-start:3;
+         grid-column-end:7;
+         grid-row-start:1;
+         grid-row-end:7;
+         background-image: url(imgs/plastic-pellets.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+        margin-top: 10px;
+       
+    }
+    
+   
+    
+    
+    
+    .plastic-3{
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:2;
+        grid-row-end:2;
+        background-color: #778957;
+        margin-left: 10px;
+    }
+    
+        .plastic-3 img{
+        max-height: 90px;
+        max-width: 90px;
+        float:right;
+        border-radius: 50%;
+        shape-outside: circle();
+      
+    }
+    
+    
+    
+    
+    .energy-1{
+        grid-column-start:8;
+        grid-column-end:11;
+        grid-row-start:5;
+        grid-row-end:5;
+        background-color:  #778957;
+        z-index:1;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    .energy-2{
+        grid-column-start:5;
+        grid-column-end:9;
+        grid-row-start:5;
+        grid-row-end:11;
+         background-image: url(imgs/green-energy-2.jpg);
+        background-size: cover;
+        background-attachment: fixed; 
+        overflow: hidden;
+
+        
+    }
+    
+    .energy-3{
+            grid-column-start:8;
+            grid-column-end:11;
+            grid-row-start:6;
+            grid-row-end:6;
+            background-color:  #778957;
+            margin-right: 10px;
+          
+    }
+    
+    
+     .energy-3 img{
+          max-height: 90px;
+          max-width: 90px;
+          float:right;
+          border-radius: 50%;
+          shape-outside: circle();
+          z-index:1;
+        
+          }
+    
+    
+    .food-1{
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:9;
+        grid-row-end:9;
+        background-color:#778957;
+        margin-left: 10px;
+        z-index:1; 
+        margin-top: 10px;
+    }
+    
+        .food-3 img {
+         max-height: 90px;
+         max-width: 90px;
+         float:right;
+         border-radius: 50%;
+         shape-outside: circle();
+        }
+    
+    
+    .food-2{
+        grid-column-start: 3;
+        grid-column-end:7;
+        grid-row-start:9;
+        grid-row-end:15;
+        background-image: url(imgs/tower-garden.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        overflow: hidden;
+        
+        
+    }
+    
+    .food-3{
+           grid-column-start:1;
+           grid-column-end:4;
+           grid-row-start:10;
+           grid-row-end:10;
+           background-color: #778957;
+           z-index:1;
+           margin-left: 10px;
+        
+    }
+    
+    .transport-1{grid-column-start:8;
+                grid-column-end:11;
+                grid-row-start:13;
+                grid-row-end:13;
+                background-color: #778957;
+        margin-top: 10px;
+        margin-right: 10px;
+                z-index:1;}
+    
+    .transport-2{
+        grid-column-start:5;
+        grid-column-end:9;
+        grid-row-start:13;
+        grid-row-end:19;
+        background-image:url(imgs/eco-vs-nogo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    
+    .transport-3{
+        grid-column-start:8;
+        grid-column-end:11;
+        grid-row-start:14;
+        grid-row-end:14;
+        background-color: #778957;
+        margin-right: 10px;
+        z-index:1;
+    
+    }
+    
+    .transport-3 img{
+        
+         max-height: 90px;
+         max-width: 90px;
+         float:right;
+         border-radius: 50%;
+         shape-outside: circle();
+    
+    }
+    
+    
+    
+    .main-article{
+        column-count: 2;
+    }
+
+
+  
+   
+
+
+
+/* small phones and tablets from 480 to 767 px*/
+
+
+
+@media only screen and(min-width:480px),(max-width:767px){
+  
+    
+    .header-text{font-size: 60%;}
+    
+     .top-box{ max-width: 300px;}
+    
+    
+    .h1{max-width: 200px;}
+    
+    .main-nav li{
+    font-size:50%;
+    font-weight: 300;
+    display:block;
+    list-style: none;
+    margin-left: 6.7em;
+                }
+    
+    .text-box{max-width: 350px;}
+    
+    
+    .about-grid{
+        display:grid;
+          grid-template-columns:repeat(9,86px);
+        grid-template-rows:repeat(20,80px);
+    }
+    
+    .plastic-1{
+         background-color: #778957;
+         grid-column-start:1;
+         grid-column-end:4;
+         grid-row-start:1;
+         grid-row-end:1;
+        z-index:1;  
+    }
+  
+    
+    
+    .plastic-2{
+        background-image: url(imgs/plastic-pellets.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+        grid-column-start:3;
+        grid-column-end:6;
+        grid-row-start:1;
+        grid-row-end:7;
+        
+    }
+    
+    .plastic-3{
+         grid-column-start:1;
+         grid-column-end:4;
+         grid-row-start:2;
+         grid-row-end:2;
+         z-index:1;
+         background-color: #778957; 
+      }
+    
+      .plastic-3 img{
+        max-height: 90px;
+        max-width: 90px;
+        float:right;
+        border-radius: 50%;
+        shape-outside: circle();
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .energy-1{
+        grid-column-start:7;
+        grid-column-end: 10;
+        grid-row-start:6;
+        grid-row-end:6;
+        background-color:  #778957;
+        z-index:1;
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    .energy-2{
+        grid-column-start:5;
+        grid-column-end:8;
+        grid-row-start:6;
+        grid-row-end:12;
+        background-image: url(imgs/green-energy-2.jpg);
+        background-size: cover;
+        background-attachment: fixed; 
+        overflow: hidden;
+        
+    }
+    
+    .energy-3{
+        grid-column-start:7;
+        grid-column-end:10;
+        grid-row-start: 7;
+        grid-row-end:7;
+        background-color:  #778957;
+    }
+    
+    .energy-3 img{
+          max-height: 90px;
+          max-width: 90px;
+          float:right;
+          border-radius: 50%;
+          shape-outside: circle();
+        
+          }
+    
+    
+    .food-1{
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:11;
+        grid-row-end:11;
+        background-color:#778957;
+        z-index:1;
+        
+        
+    }
+    
+    .food-2{
+        grid-column-start:3;
+        grid-column-end:6;
+        grid-row-start:11;
+        grid-row-end:17;
+        background-image: url(imgs/tower-garden.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        overflow: hidden;
+        
+        
+    }
+    
+    
+    .food-3{
+        
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:12;
+        grid-row-end:12;
+        background-color: #778957;
+        z-index:1;
+    }
+    
+    
+    
+    
+    .transport-1{
+        grid-column-start:7;
+        grid-column-end:10;
+        grid-row-start:16;
+        grid-row-end:16;
+        background-color: #778957;
+        z-index:1;
+    }
+    
+    
+    
+    .transport-2{
+        grid-column-start:5;
+        grid-column-end:8;
+        grid-row-start:16;
+        grid-row-end:21;
+        background-image:url(imgs/eco-vs-nogo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    
+    .transport-3{
+        grid-column-start:7;
+        grid-column-end:10;
+        grid-row-start:17;
+        grid-row-end:17;
+        background-color: #778957;
+        z-index:1;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+    
+    
+    
+      
+
+
+    
+    
+
+
+
+
+/* small phones: from 0 to 480px*/
+
+
+@media only screen and (max-width:480px){
+    
+    .header-text{font-size: 90%;}
+    .text-box{max-width: 400px}
+    
+    .text-box{
+        max-width:400px;
+        align-items: center;
+        align-content: center;  
+    }
+    
+    
+    /* about-grid*/
+    
+    .about-grid{
+        display:grid;
+        grid-template-columns:repeat(3,160px);
+        grid-template-rows:repeat(25,100px);     
+    }
+    
+        /* plastics*/
+    
+    .plastic-1{
+        background-color: #778957;
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:1;
+        grid-row-end:1      
+    }
+    
+ h5{
+    font-size: 60%;
+     padding:1em;
+     
+    }
+    
+    .plastic-2{
+        background-image: url(imgs/plastic-pellets.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:2;
+        grid-row-end:7;   
+    }
+    
+    .plastic-3{
+        background-color: #778957;
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:6;
+        grid-row-end:6;
+        z-index:1;
+        
+    }
+    
+    .plastic-3 img{
+        max-height: 90px;
+        max-width: 90px;
+        float:right;
+        border-radius: 50%;
+        shape-outside: circle();
+    }
+    
+    
+        /* end pastics*/
+    
+        /* start energy*/
+    
+    
+    .energy-1{
+        background-color:  #778957;
+          grid-column-start:1;
+          grid-column-end:4;
+          grid-row-start:7;
+         grid-row-end:7;  
+         margin-top:.5em;
+    }
+    
+    .energy-2{
+        
+        grid-column-start:1;
+        grid-column-end:4;
+        grid-row-start:8;
+        grid-row-end:14;
+        background-image: url(imgs/green-energy-2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    
+    .energy-3{
+           grid-column-start:1;
+           grid-column-end:4;
+           grid-row-start: 13;
+           grid-row-end:14;
+           background-color: #778957;
+        
+    }
+    
+         /* end energy*/
+    
+    
+    .food-1{
+          grid-column-start:1;
+          grid-column-end:4;
+          grid-row-start:14;
+          grid-row-end:14;
+          background-color:#778957;
+        margin-top: .8em;
+         }
+    
+    .food-2{
+          grid-column-start:1;
+          grid-column-end:4;
+          grid-row-start:15;
+          grid-row-end:20;
+          background-image: url(imgs/tower-garden.jpg);
+          background-size:cover;
+          background-attachment: fixed;
+          overflow: hidden;
+        
+          }
+    
+    .food-3{
+          grid-column-start:1;
+          grid-column-end:4;
+          grid-row-start:19;
+          grid-row-end:19;
+          background-color: #778957;
+          z-index: 1;
+       
+    }
+    
+    .transport-1{
+        
+           grid-column-start:1;
+           grid-column-end:4;
+           grid-row-start:20;
+           grid-row-end:20;
+           background-color: #778957;
+           margin-top: .8em;
+    }
+    
+    
+    .transport-2{
+           grid-column-start:1;
+           grid-column-end:4;
+           grid-row-start:21;
+           grid-row-end:26;
+           background-image:url(imgs/sustainable-transport.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    
+    .transport-3{
+           grid-column-start:1;
+           grid-column-end:4;
+           grid-row-start:25;
+           grid-row-end:25;
+           background-color: #778957;
+           z-index: 1;
+    }
+    
+    
+    
+    .text-box h1{font-size: 80%;
+    text-align: center;}
+    
+    .text-box li{
+        font-size: 70%;
+         margin-left: .4em;
+   
+    }
+    
+ 
+.main-nav{
+    display: flex;
+    justify-content: center;
+    margin-left:.5em;
+    margin-top:1em;  
+}
+   
+    
+
+    
+    .about-row{
+        min-height:50px;
+        min-width: 100%;
+        background-color: aliceblue;
+    }
+    
+    
+   
+    
+}
+
+/* End of media quiery small phones: from 0 to 480px*/

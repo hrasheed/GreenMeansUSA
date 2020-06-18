@@ -1,0 +1,682 @@
+     
+
+                           /*----*/
+                    /*--Basic set up--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;  
+    max-width:1200px;
+    
+    
+}
+
+
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+       
+
+
+html{
+    background-color:#eafaf1;
+    font-family:'Roboto','Lato','Arial','san-sarif';
+    font-size:20px;
+    font-weight:300;
+    text-rendering:optimizeLegibility;
+    
+   }
+
+
+                     /*--Main-Grid--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+
+
+
+
+
+
+                         /*--Header--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+
+         
+header{
+    background-image: url(imgs/GMCover.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    background-attachment: fixed;
+    max-width:1200px;
+    padding:1em;
+    
+}
+
+.row{
+    max-width: 1140;
+    margin:0 auto;
+}
+
+ 
+
+.text-box{
+    position: absolute;
+    width: 1140;
+    position: absolute;
+    margin-top:25%;
+    margin-left:25%;
+    background-color: rgba(234, 250, 241, 0.8);
+    padding:1.5em;
+    border-radius: 50%;
+     /*--margin top and bottom at 25% instead of expected 50%--*/
+}
+
+
+ul li{list-style: none;
+      color:#e08449;
+      display:inline-block;
+     align-content: center; 
+}
+
+
+
+
+.main-nav{   
+    margin-bottom: .5em;
+}
+
+.link{
+    margin-right:20px;
+}
+
+
+.main-ico{
+    float:left;
+    margin-top:1.5em;
+    margin-right: 6em;
+   font-size: 100px;
+   color:#eafaf1;
+    
+}
+
+
+
+
+
+
+
+
+h1{margin:0;
+    color:#e08449;
+    font-size:200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;    
+}
+h2{
+    text-align: center;
+    color:#e08449;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+h2{margin-top: 30px;}
+
+h3{margin-top: 20px;
+    color:#eafaf1;
+    font-weight: 300;
+    text-align: center;
+    background: #e08449;
+    padding-bottom:5px;
+    padding-top: 5px;
+   text-align: center;
+   margin-left: 1em;
+   margin-right: 1em;}
+
+h5{font-weight: 400;
+      font-size: 60%;
+      color:#eafaf1;
+      padding:.5em;
+      float:left;  
+}
+
+
+   /*-------About section-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+#blog-header{margin-bottom: 20px;
+    background-color: aliceblue;
+    width:100%;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.blog-container{
+ 
+}
+
+blog >*{ margin-top: 0;
+    
+}
+
+    
+blog{
+    column-count: 3 ;
+    padding-right: 3em;
+    line-height: 1em; 
+    column-rule-style:outset;
+    column-rule-color: rgba(224, 132, 73, 0.42);
+    column-rule-width:3px;
+}
+
+
+
+
+
+
+.blog >*{ margin-top: 0;
+    
+}
+
+
+
+.blog-header-text{
+   
+}
+
+
+P{
+    font-size:70%;
+    color:#641E16;
+    margin-left: 20px;
+    }
+
+
+
+
+.ico-tag{
+    color:#eafaf1;
+    font-weight: 300;
+    text-align: center;
+    background: #e08449;
+    padding-bottom:5px;
+    padding-top: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.under-about{
+    color:#db7107;
+    text-align: center;
+    font-size: 50px;
+}
+
+.row{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.5em;
+    margin-top:1em;   
+}
+
+.main-nav li{
+    font-size:100%;
+    font-weight: 300;
+    display:inline-block;
+    list-style: none;
+}
+
+
+
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding:8px 0px;
+    color:#e08449;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition:border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+
+}
+
+
+                                /*--sticky Nav--*/
+
+.sticky{
+    position:fixed;
+    float:right;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgba(234, 250, 241, 0.9);
+    box-shadow: 0 2px 2px rgba(219, 113, 7, 0.8);
+    z-index: 9999
+        
+   
+       }
+
+
+
+.sticky .main-nav{margin-top: 1px;}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited
+    {float:right;
+        color:#db7107;
+      }
+
+
+/*----*/
+
+
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+    
+    
+                    /*--Button Set up--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+
+
+.btn:link,
+.btn:visited
+{   display:inline-block;
+    color: #C0392B;
+    border:1px solid;
+    border-radius: 200px;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.2s,border 0.2s color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited
+    {
+    background-color:#F39C12;
+    border-radius: 200px;
+    border:1px solid #e08449;
+    margin-right: 15px;
+    }
+
+.btn-ghost:link,
+.btn-ghost:visited
+     {
+    border:1px solid #e08449;
+         background-color: rgba(234, 250, 241, 0.5);
+}
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border:1px solid #e08449;
+    
+}
+
+.btn:hover,
+.btn:active{
+    color:#F39C12;
+    background-color:#C0392B;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border:1px solid #C0392B ;
+        }
+
+
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border:1px solid #C0392B ;
+    color:#F39C12;
+    
+}
+
+
+
+}
+
+
+                    /*--headings section--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+
+
+
+
+
+                         /*--blog Section--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+
+.blog-container{
+   
+
+
+}
+
+.main-text{
+    
+    padding:1em;
+}
+
+
+
+                    /*--I con section--*/
+                /*-------GreenMeansUSA-------*/
+                         /*----*/
+
+.about-head{margin-bottom: 25px;}
+
+
+
+
+
+.ico-img{
+    color:rgb(206, 104, 16);
+    font-size: 50px;
+    Float:left;  
+    
+    }
+
+
+
+
+                               /*--about-section--*/
+                          /*-------GreenMeansUSA-------*/
+                            
+                         /*--about grid--*/
+
+
+
+
+
+
+
+
+                                        /*--I con section--*/
+                                    /*-------GreenMeansUSA-------*/
+
+                                             /*--Animation--*/
+
+
+.logo-block li{
+    display:block;
+    float:left;
+    width:25%;
+    height: 350px;
+    color:#575554;
+    background-color: bisque;
+         }
+
+.logo-block li:hover{
+    display:block;
+    float:left;
+    height: auto;
+    color:#e38d62;
+    font-size:50px;
+         }
+
+                                 /*--I con section--*/
+  .trigger{
+    height:350px;
+    width:350px;
+    color:#667171;
+    border:5px solid #5f5a54;
+    background-color:#fff;
+}
+          
+                        /*-------GreenMeansUSA-------*/
+                            /*--Animation-text--*/
+.ico-move{  color:#d65514;
+            font-size:175px;
+            text-align: center;
+        }
+
+
+
+.ico-text{ color:green;
+    
+}
+
+.ico-text:hover{
+    font-size: 9px;
+}
+
+
+
+                                
+.logo-block li ico-info{
+    display:none;
+}
+
+
+
+.logo-block li h3{
+    margin-top:-5px;
+    color:red;
+    font-size:20px;
+    display: none;
+}
+
+/*-------GreenMeansUSA-------*/
+    /*--Waypoint Plug in --*/
+
+
+.js--wp-1{
+    opacity: 0;
+    animation-duration: 1s;
+}
+.js--wp-1.animated{
+    opacity:1;
+}
+
+
+.js--wp-2{
+    opacity:0;
+     animation-duration: 1s;
+}
+.js--wp-2.animated{
+    opacity:1;
+}
+
+
+.js--wp-3{
+    
+    opacity:0;
+     animation-duration: 1s;
+}
+.js--qp-3animated{
+    opacity:1;
+}
+
+
+.js--wp-4{
+    opacity:0;
+     animation-duration: 1s;
+}
+.js--wp-4{
+    
+    opacity:1;
+     animation-duration: 1s;
+}
+
+/*--------------------------*/
+      /*Store Section*/
+/*--------------------------*/
+
+
+                        /*-------------About Section-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                /*elements first side*/
+
+first-side{display: flex;
+    
+ }
+
+
+.Store-container{
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-tag{background-color:#db7107; 
+color:#eafaf1;
+font-weight: 300;
+text-align: center;
+width:200px;}
+
+                                    
+
+
+/*--------------------------*/
+      /*Footer Section*/
+/*--------------------------*/
+
+footer {background-color:#333;
+    padding:50px;
+    font-size:80%
+}
+.footer-nav{list-style:none;
+float:left;
+}
+
+.social-icons {
+    list-style:none;
+    float:right;
+}
+
+
+.footer-nav li,
+.social-icons li{display:inline-block;
+                margin right: 20px;}
+
+.footer-nav li:last-child,
+.social-icons li:last-child{
+ margin-right:0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited
+   {text-decoration: none;
+    border:0;
+    color:#888;
+    transition: color 0.2s;}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color:#ddd;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited{
+    font-size:160%;  
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+    Transition:color:0.2s;
+}
+
+.ion-social-facebook:hover{
+    color:#3b5998;
+}
+.ion-social-twitter:hover{
+    color:#00aced;
+}
+.ion-social-googleplus:hover{
+    color:#dd4b39;
+}
+
+.ion-social-instagram:hover{
+    color:#517fa4;
+}
+footer p{
+    color:#888;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+
+
+
+    
+
+
+
+
